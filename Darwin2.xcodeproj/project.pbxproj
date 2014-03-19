@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00113DBE18D9224100919B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00113DBD18D9224100919B1F /* Foundation.framework */; };
+		00113DC018D9224100919B1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00113DBF18D9224100919B1F /* CoreGraphics.framework */; };
+		00113DC218D9224100919B1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00113DC118D9224100919B1F /* UIKit.framework */; };
+		00113DC818D9224100919B1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00113DC618D9224100919B1F /* InfoPlist.strings */; };
+		00113DCA18D9224100919B1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00113DC918D9224100919B1F /* main.m */; };
+		00113DCE18D9224200919B1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00113DCD18D9224200919B1F /* AppDelegate.m */; };
+		00113DD118D9224200919B1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00113DCF18D9224200919B1F /* Main.storyboard */; };
+		00113DD418D9224200919B1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00113DD318D9224200919B1F /* ViewController.m */; };
+		00113DD618D9224200919B1F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00113DD518D9224200919B1F /* Images.xcassets */; };
+		00113DDD18D9224200919B1F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00113DDC18D9224200919B1F /* XCTest.framework */; };
+		00113DDE18D9224200919B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00113DBD18D9224100919B1F /* Foundation.framework */; };
+		00113DDF18D9224200919B1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00113DC118D9224100919B1F /* UIKit.framework */; };
+		00113DE718D9224200919B1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00113DE518D9224200919B1F /* InfoPlist.strings */; };
+		00113DE918D9224200919B1F /* Darwin2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00113DE818D9224200919B1F /* Darwin2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00113DE018D9224200919B1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00113DB218D9224100919B1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00113DB918D9224100919B1F;
+			remoteInfo = Darwin2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00113DBA18D9224100919B1F /* Darwin2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Darwin2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00113DBD18D9224100919B1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		00113DBF18D9224100919B1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		00113DC118D9224100919B1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		00113DC518D9224100919B1F /* Darwin2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Darwin2-Info.plist"; sourceTree = "<group>"; };
+		00113DC718D9224100919B1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00113DC918D9224100919B1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00113DCB18D9224100919B1F /* Darwin2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Darwin2-Prefix.pch"; sourceTree = "<group>"; };
+		00113DCC18D9224200919B1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00113DCD18D9224200919B1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00113DD018D9224200919B1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00113DD218D9224200919B1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00113DD318D9224200919B1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00113DD518D9224200919B1F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00113DDB18D9224200919B1F /* Darwin2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Darwin2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00113DDC18D9224200919B1F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		00113DE418D9224200919B1F /* Darwin2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Darwin2Tests-Info.plist"; sourceTree = "<group>"; };
+		00113DE618D9224200919B1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00113DE818D9224200919B1F /* Darwin2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Darwin2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00113DB718D9224100919B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00113DC018D9224100919B1F /* CoreGraphics.framework in Frameworks */,
+				00113DC218D9224100919B1F /* UIKit.framework in Frameworks */,
+				00113DBE18D9224100919B1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00113DD818D9224200919B1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00113DDD18D9224200919B1F /* XCTest.framework in Frameworks */,
+				00113DDF18D9224200919B1F /* UIKit.framework in Frameworks */,
+				00113DDE18D9224200919B1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00113DB118D9224100919B1F = {
+			isa = PBXGroup;
+			children = (
+				00113DC318D9224100919B1F /* Darwin2 */,
+				00113DE218D9224200919B1F /* Darwin2Tests */,
+				00113DBC18D9224100919B1F /* Frameworks */,
+				00113DBB18D9224100919B1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00113DBB18D9224100919B1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00113DBA18D9224100919B1F /* Darwin2.app */,
+				00113DDB18D9224200919B1F /* Darwin2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00113DBC18D9224100919B1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00113DBD18D9224100919B1F /* Foundation.framework */,
+				00113DBF18D9224100919B1F /* CoreGraphics.framework */,
+				00113DC118D9224100919B1F /* UIKit.framework */,
+				00113DDC18D9224200919B1F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		00113DC318D9224100919B1F /* Darwin2 */ = {
+			isa = PBXGroup;
+			children = (
+				00113DCC18D9224200919B1F /* AppDelegate.h */,
+				00113DCD18D9224200919B1F /* AppDelegate.m */,
+				00113DCF18D9224200919B1F /* Main.storyboard */,
+				00113DD218D9224200919B1F /* ViewController.h */,
+				00113DD318D9224200919B1F /* ViewController.m */,
+				00113DD518D9224200919B1F /* Images.xcassets */,
+				00113DC418D9224100919B1F /* Supporting Files */,
+			);
+			path = Darwin2;
+			sourceTree = "<group>";
+		};
+		00113DC418D9224100919B1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00113DC518D9224100919B1F /* Darwin2-Info.plist */,
+				00113DC618D9224100919B1F /* InfoPlist.strings */,
+				00113DC918D9224100919B1F /* main.m */,
+				00113DCB18D9224100919B1F /* Darwin2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00113DE218D9224200919B1F /* Darwin2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				00113DE818D9224200919B1F /* Darwin2Tests.m */,
+				00113DE318D9224200919B1F /* Supporting Files */,
+			);
+			path = Darwin2Tests;
+			sourceTree = "<group>";
+		};
+		00113DE318D9224200919B1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00113DE418D9224200919B1F /* Darwin2Tests-Info.plist */,
+				00113DE518D9224200919B1F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00113DB918D9224100919B1F /* Darwin2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00113DEC18D9224200919B1F /* Build configuration list for PBXNativeTarget "Darwin2" */;
+			buildPhases = (
+				00113DB618D9224100919B1F /* Sources */,
+				00113DB718D9224100919B1F /* Frameworks */,
+				00113DB818D9224100919B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Darwin2;
+			productName = Darwin2;
+			productReference = 00113DBA18D9224100919B1F /* Darwin2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00113DDA18D9224200919B1F /* Darwin2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00113DEF18D9224200919B1F /* Build configuration list for PBXNativeTarget "Darwin2Tests" */;
+			buildPhases = (
+				00113DD718D9224200919B1F /* Sources */,
+				00113DD818D9224200919B1F /* Frameworks */,
+				00113DD918D9224200919B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00113DE118D9224200919B1F /* PBXTargetDependency */,
+			);
+			name = Darwin2Tests;
+			productName = Darwin2Tests;
+			productReference = 00113DDB18D9224200919B1F /* Darwin2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00113DB218D9224100919B1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Eli Ben-Joseph";
+				TargetAttributes = {
+					00113DDA18D9224200919B1F = {
+						TestTargetID = 00113DB918D9224100919B1F;
+					};
+				};
+			};
+			buildConfigurationList = 00113DB518D9224100919B1F /* Build configuration list for PBXProject "Darwin2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00113DB118D9224100919B1F;
+			productRefGroup = 00113DBB18D9224100919B1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00113DB918D9224100919B1F /* Darwin2 */,
+				00113DDA18D9224200919B1F /* Darwin2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00113DB818D9224100919B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00113DD618D9224200919B1F /* Images.xcassets in Resources */,
+				00113DC818D9224100919B1F /* InfoPlist.strings in Resources */,
+				00113DD118D9224200919B1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00113DD918D9224200919B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00113DE718D9224200919B1F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00113DB618D9224100919B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00113DD418D9224200919B1F /* ViewController.m in Sources */,
+				00113DCE18D9224200919B1F /* AppDelegate.m in Sources */,
+				00113DCA18D9224100919B1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00113DD718D9224200919B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00113DE918D9224200919B1F /* Darwin2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00113DE118D9224200919B1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00113DB918D9224100919B1F /* Darwin2 */;
+			targetProxy = 00113DE018D9224200919B1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00113DC618D9224100919B1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00113DC718D9224100919B1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		00113DCF18D9224200919B1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00113DD018D9224200919B1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00113DE518D9224200919B1F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00113DE618D9224200919B1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00113DEA18D9224200919B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00113DEB18D9224200919B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00113DED18D9224200919B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Darwin2/Darwin2-Prefix.pch";
+				INFOPLIST_FILE = "Darwin2/Darwin2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		00113DEE18D9224200919B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Darwin2/Darwin2-Prefix.pch";
+				INFOPLIST_FILE = "Darwin2/Darwin2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		00113DF018D9224200919B1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Darwin2.app/Darwin2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Darwin2/Darwin2-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Darwin2Tests/Darwin2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		00113DF118D9224200919B1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Darwin2.app/Darwin2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Darwin2/Darwin2-Prefix.pch";
+				INFOPLIST_FILE = "Darwin2Tests/Darwin2Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00113DB518D9224100919B1F /* Build configuration list for PBXProject "Darwin2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00113DEA18D9224200919B1F /* Debug */,
+				00113DEB18D9224200919B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00113DEC18D9224200919B1F /* Build configuration list for PBXNativeTarget "Darwin2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00113DED18D9224200919B1F /* Debug */,
+				00113DEE18D9224200919B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		00113DEF18D9224200919B1F /* Build configuration list for PBXNativeTarget "Darwin2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00113DF018D9224200919B1F /* Debug */,
+				00113DF118D9224200919B1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00113DB218D9224100919B1F /* Project object */;
+}
