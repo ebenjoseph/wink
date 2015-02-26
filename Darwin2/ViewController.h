@@ -7,7 +7,31 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Parse/Parse.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
+{
+    PFLogInViewController *login;
+    
+    IBOutlet UITextField *setUsernameField;
+    IBOutlet UITextField *setPasswordField;
+    
+    IBOutlet UITextField *usernameField;
+    IBOutlet UITextField *passwordField;
+    
+    NSArray *parseArray;
+    PFObject *imageObject;
+    int flag;
+    
+    NSMutableDictionary *dict;
+}
+
+@property int checker;
+
+//- (IBAction)submitNewUser:(id)sender;
+//- (IBAction)login:(id)sender;
+//- (IBAction)screenTap:(id)sender;
+
+
 
 @end
